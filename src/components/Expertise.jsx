@@ -87,9 +87,6 @@ const Expertise = () => {
               <path d="M4 4 Q 10 10 15 15 M 15 15 L 10 15 M 15 15 L 15 10" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </h2>
-          <p className="text-gray-500 text-base md:text-lg max-w-sm font-medium leading-relaxed">
-            Combining full-stack development, artificial intelligence, and cloud technologies to create scalable and impactful digital experiences.
-          </p>
         </div>
 
         {/* Desktop SVG Animated Dashed Line */}
@@ -170,8 +167,8 @@ const Expertise = () => {
 
           <TagCard
             number="01"
-            title="Frontend Development"
-            text="Crafting responsive and interactive user interfaces using React, JavaScript, Tailwind CSS, and modern frontend technologies to deliver seamless user experiences."
+            title="Full-Stack Development"
+            text="Developing end-to-end web solutions by combining modern frontend technologies with secure APIs, authentication systems, and scalable database-driven architectures."
             className="md:absolute md:top-[10px] md:right-[5%] lg:right-[10%] rotate-2 md:rotate-6"
             aosType="fade-left"
             aosDelay="100"
@@ -180,8 +177,8 @@ const Expertise = () => {
           />
           <TagCard
             number="02"
-            title="Backend Development"
-            text="Building secure REST APIs, authentication systems, server-side applications, and database integrations with scalable architectures."
+            title="Graphic Designing"
+            text="Designing modern, creative, and memorable visual identities using industry-standard tools while maintaining strong brand consistency."
             className="md:absolute md:top-[450px] md:left-[5%] lg:left-[10%] -rotate-2 md:-rotate-6"
             aosType="fade-right"
             aosDelay="200"
@@ -201,8 +198,8 @@ const Expertise = () => {
 
           <TagCard
             number="04"
-            title="Cloud & Deployment"
-            text="Deploying and managing applications using Docker, GitHub Actions, CI/CD pipelines, cloud platforms, and performance optimization practices."
+            title="Content Creation"
+            text="Content Creator specializing in digital storytelling, social media content, visual communication, and audience engagement."
             className="md:absolute md:top-[1050px] md:left-[15%] lg:left-[25%] -rotate-1 md:-rotate-3"
             aosType="fade-right"
             aosDelay="400"

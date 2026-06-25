@@ -1,12 +1,12 @@
 import React from 'react';
-import stackImage from '../assets/about/image.png';
+import stackImage from '../assets/about/WhatsApp Image 2026-06-25 at 12.04.42 PM.jpeg';
 import reactImage from '../assets/about/react.png';
 import nodeImage from '../assets/about/node.png';
 import mongoImage from '../assets/about/mongodb.png';
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
+    <section id="about" className="bg-[#000000] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
         
         {/* Left Side: ID Badge and Skills */}
@@ -14,12 +14,12 @@ const About = () => {
           
           <div data-aos="drop-bounce" className="relative flex justify-center w-full">
             {/* Lanyard string */}
-            <div className="absolute -top-32 left-1/2 w-3 h-40 bg-black transform -translate-x-1/2 shadow-inner z-0"></div>
+            <div className="absolute -top-32 left-1/2 w-3 h-40 bg-gray-300 transform -translate-x-1/2 shadow-inner z-0"></div>
             {/* Lanyard clip */}
             <div className="absolute -top-6 left-1/2 w-6 h-12 bg-gray-300 rounded border border-gray-400 transform -translate-x-1/2 z-10 shadow-[0_2px_10px_rgba(0,0,0,0.3)]"></div>
             
             {/* Badge Card */}
-            <div className="bg-gray-900 w-full max-w-[280px] rounded-2xl p-3 shadow-[0_20px_40px_rgba(0,0,0,0.4)] relative z-20 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+            <div className="bg-red-700 w-full max-w-[280px] rounded-2xl p-3 shadow-[0_20px_40px_rgba(0,0,0,0.4)] relative z-20 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
               {/* Cutout Hole */}
               <div className="absolute -top-3 left-1/2 w-16 h-6 bg-gray-900 rounded-t-xl transform -translate-x-1/2 flex justify-center items-center">
                 <div className="w-8 h-2 bg-black/30 rounded-full shadow-inner"></div>
@@ -39,34 +39,10 @@ const About = () => {
 
         {/* Right Side: Info Content */}
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
-          
-          <h2 className="text-4xl md:text-5xl font-black text-black mb-4">Hello!</h2>
           <p className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-red-50">
-            Hi, my name is <span className="text-black text-xl font-black mx-1 tracking-wide uppercase">Sushmita Dasari</span>, a passionate full-stack developer based in [Location], dedicated to crafting clean, functional, and highly scalable web applications.
-          </p>
-
-          {/* Horizontal Skills Row (Transparent & Large) */}
-          <div className="flex items-center gap-10 mt-8">
-            <img 
-              data-aos="zoom-in" data-aos-delay="300"
-              src={reactImage} 
-              alt="React" 
-              className="w-20 h-20 md:w-24 md:h-24 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl" 
-            />
-            <img 
-              data-aos="zoom-in" data-aos-delay="450"
-              src={nodeImage} 
-              alt="Node.js" 
-              className="w-20 h-20 md:w-24 md:h-24 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl" 
-            />
-            <img 
-              data-aos="zoom-in" data-aos-delay="600"
-              src={mongoImage} 
-              alt="MongoDB" 
-              className="w-20 h-20 md:w-24 md:h-24 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl" 
-            />
-          </div>
-
+            Hi, my name is <span className="text-red-500 text-xl font-black mx-1 tracking-wide uppercase">Kirtivardhan Singh</span>, Passionate Computer Science student specializing in Artificial Intelligence, Machine Learning, and Graphic Design, focused on creating innovative and technology-driven solutions. Skilled in research, problem-solving, visual communication, and developing impactful digital experiences with creativity and precision.<br></br><br></br>
+            <p>Enthusiastic about exploring emerging technologies, building intelligent systems, and combining technical knowledge with modern design. Dedicated to continuous learning, personal growth, and contributing to meaningful projects that create real-world impact through innovation and creativity.
+          </p></p>
         </div>
       </div>
 
@@ -78,10 +54,10 @@ const About = () => {
       </div>
 
       {/* Decorative stars */}
-      <div className="absolute top-10 right-10 md:right-20 text-black opacity-30 animate-pulse">
+      <div className="absolute top-10 right-10 md:right-20 text-white opacity-30 animate-pulse">
         <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z"/></svg>
       </div>
-      <div className="absolute bottom-32 left-4 md:left-20 text-black opacity-30 animate-pulse" style={{ animationDelay: '1s' }}>
+      <div className="absolute bottom-32 left-4 md:left-20 text-white opacity-30 animate-pulse" style={{ animationDelay: '1s' }}>
         <svg className="w-20 h-20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z"/></svg>
       </div>
     </section>

@@ -4,20 +4,20 @@ import { motion } from 'framer-motion';
 const Skills = () => {
   const skillsData = [
     {
-      category: 'Frontend Development',
-      skills: ['React', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
+      category: 'Full-Stack Development',
+      skills: ['React', 'JavaScript', 'Node.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap', 'Python', 'Java', 'REST APIs', 'MySQL', 'MongoDB'],
     },
     {
-      category: 'Backend Development',
-      skills: ['Node.js', 'Express.js', 'Java', 'Python', 'REST APIs', 'JWT Auth', 'MySQL', 'MongoDB'],
+      category: 'Graphic Designing',
+      skills: ['Adobe Photoshop', 'Figma', 'Canva', 'UI/UX Design', 'Packaging Design', 'Brand Identity Design'],
     },
     {
       category: 'AI & Machine Learning',
-      skills: ['Machine Learning', 'NLP', 'Generative AI', 'LLMs', 'Computer Vision', 'Prompt Engineering'],
+      skills: ['Machine Learning', 'NLP', 'Generative AI', 'Explainable AI (XAI)', 'Computer Vision', 'Prompt Engineering', 'OpenCV', 'CNN (Convolutional Neural Networks)', 'Transfer Learning', 'Classification & Regression'],
     },
     {
-      category: 'Tools & Cloud',
-      skills: ['Git', 'GitHub', 'Docker', 'Postman', 'Linux', 'CI/CD', 'AWS','Figma'],
+      category: 'Content Creation',
+      skills: ['Content Strategy', 'Video Content Planning', 'Content Research', 'Script Writing', 'Photography'],
     },
   ];
  
