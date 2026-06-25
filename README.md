@@ -55,10 +55,6 @@ npm run dev
 
 Add your deployed website link here.
 
-## 📧 Contact
-
-* GitHub: https://github.com/Kirtivardhans123
-* Email: [your-email@example.com](mailto:your-email@example.com)
 
 ## ⭐ Support
 
