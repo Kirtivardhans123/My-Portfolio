@@ -1,4 +1,4 @@
-# My Portfolio
+see# My Portfolio
 
 A modern and responsive personal portfolio website built to showcase my skills, projects, achievements, and experience in Artificial Intelligence, Machine Learning, and Graphic Design.
 
@@ -53,7 +53,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-Add your deployed website link here.
+(https://kirtivardhan.netlify.app/)
 
 
 ## ⭐ Support
